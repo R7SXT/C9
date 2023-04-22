@@ -6,7 +6,7 @@ ball=createSprite(200,200)
 
 function draw() 
 {
-  background("purple");
+  background("red");
 drawSprites()
 }
 
