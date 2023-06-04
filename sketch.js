@@ -7,7 +7,12 @@ ball=createSprite(200,200)
 function draw() 
 {
   background("red");
-drawSprites()
+
+if (keyDown ("left")){
+background("black")
+}
+
+drawSprites() 
 }
 
 
